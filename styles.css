@@ -8,11 +8,13 @@ body {
   margin: auto;
 }
 
-/* *** Header *** */
-
 .header-container,
 .navigation-list {
   display: flex;
+}
+
+.header-container {
+  margin: 16px;
 }
 
 header nav {
@@ -22,6 +24,18 @@ header nav {
 
 .header-container {
   justify-content: space-between;
+  align-items: center;
+}
+
+.header-container h1 {
+  font-size: 24px;
+}
+
+.navigation-list li {
+  margin-right: 20px;
+}
+.navigation-list li:last-child {
+  margin-right: 0px;
 }
 
 header img {
@@ -31,5 +45,6 @@ header img {
   object-position: 50% 50%;
 }
 
-/* *** Main *** */
-
+.container {
+  color: #cfcfcf;
+}
