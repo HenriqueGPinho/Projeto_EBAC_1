@@ -4,41 +4,31 @@ body {
 
 .header-container,
 .container {
-  max-width: 1080px;
+  width: 1080px;
   margin: auto;
-}
-
-.header-container,
-.navigation-list {
-  display: flex;
-}
-
-.header-container {
-  margin: 16px;
-}
-
-header nav {
-  background-color: #1b1d2c;
+  padding: 16px 0;
   color: #cfcfcf;
 }
 
-.header-container {
+header nav,
+header nav ul{
+  display: flex;
+}
+
+header nav {
   justify-content: space-between;
   align-items: center;
 }
 
-.header-container h1 {
-  font-size: 24px;
+header nav h1 {
+  font-size: 32px;
 }
 
-.navigation-list li {
-  margin-right: 20px;
-}
-.navigation-list li:last-child {
-  margin-right: 0px;
+header nav li {
+  margin-left: 12px;
 }
 
-header img {
+.main-img {
   width: 100vw;
   height: 60vh;
   object-fit: cover;
@@ -46,5 +36,15 @@ header img {
 }
 
 .container {
-  color: #cfcfcf;
+  margin-bottom: 1080px;
+}
+
+section h2 {
+  font-size: 24px;
+  padding: 16px 0;
+}
+
+section p {
+  font-size: 20px;
+  padding-bottom: 16px;
 }
