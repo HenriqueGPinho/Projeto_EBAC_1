@@ -1,5 +1,6 @@
 body {
   background-color: #1b1d2c;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .material-symbols-outlined {
@@ -37,6 +38,8 @@ header nav,
 }
 
 header nav h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   font-size: 32px;
 }
 
@@ -71,6 +74,8 @@ header nav li {
 }
 
 section h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   font-size: 24px;
   text-transform: uppercase;
 
