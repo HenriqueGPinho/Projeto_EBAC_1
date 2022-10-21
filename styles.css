@@ -14,7 +14,7 @@ body {
 }
 
 .header-container {
-  width: 1080px;
+  width: 940px;
   margin: auto;
   padding: 16px 0;
   color: #cfcfcf;
@@ -52,12 +52,18 @@ header nav li {
 }
 
 .section-content {
-  width: 1080px;
+  width: 940px;
   margin: auto;
+
+  padding: 32px 0;
 }
 
 .container section:nth-child(even) {
   background-color: #262a3e;
+}
+
+.container section:last-child {
+  background-color: #0a0b11;
 }
 
 section h2 {
@@ -71,4 +77,15 @@ section h2 {
 section p {
   font-size: 20px;
   margin-bottom: 16px;
+  text-align: justify;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin: 16px auto;
+  padding: 8px;
+  box-sizing: border-box;
 }
